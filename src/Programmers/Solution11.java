@@ -35,7 +35,6 @@ public class Solution11 {
             return answer;
         }
 
-
     public static void main(String[] args) {
 
         System.out.println(Arrays.toString(solution(2, 5)));
