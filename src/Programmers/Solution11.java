@@ -1,6 +1,7 @@
 package Programmers;
 /*
         220930
+        
         <x만큼 간격이 있는 n개의 숫자>
 
         함수 solution은 정수 x와 자연수 n을 입력 받아, x부터 시작해 x씩 증가하는 숫자를 n개 지니는 리스트를 리턴해야 합니다.
@@ -15,9 +16,7 @@ package Programmers;
         -4	2	[-4, -8]
  */
 import java.util.Arrays;
-
 public class Solution11 {
-
 
         public static long[] solution(int x, int n) {
             long[] answer = new long[n]; // n의 개수 만큼
