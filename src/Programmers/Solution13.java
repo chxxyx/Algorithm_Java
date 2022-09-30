@@ -1,7 +1,9 @@
 package Programmers;
 /*
         220930
+
         <문자열을 정수로 바꾸기>
+
         문자열 s를 숫자로 변환한 결과를 반환하는 함수, solution을 완성하세요.
 
         제한 조건
@@ -40,9 +42,7 @@ public class Solution13 {
         valueOf() 메소드는 문자열을 변환하여 Integer Object를 리턴한다.
         parseInt() 메소드는 primitive type인 int를 리턴한다.
          */
-
         int answer = Integer.valueOf(s).intValue();
-
 
         return answer;
     }
