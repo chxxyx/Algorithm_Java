@@ -29,6 +29,7 @@ public class Solution29 {
         if(s.length() == 4 || s.length() ==6 ) {  // s 문자열의 길이를 설정해주지 않아서 계속 오답이었다 ㅠㅠ
 
             // 예외 처리 문으로 시도했음
+            // 문자열을 통으로 정수로 바꾸고 예외가 터지면 false
             try {
                 Integer.parseInt(s);
                 return true;
