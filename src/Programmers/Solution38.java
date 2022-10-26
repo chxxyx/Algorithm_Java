@@ -41,4 +41,11 @@ public class Solution38 {
         return sum;
     }
 
+    public static void main(String[] args) {
+
+        int[] A = {1, 4, 2};
+        int[] B = {5, 4, 4};
+        
+    }
+
 }
